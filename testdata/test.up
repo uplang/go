@@ -1,0 +1,30 @@
+# Test UP document
+name John Doe
+age!int 30
+active!bool true
+
+server {
+host localhost
+port!int 8080
+debug!bool false
+}
+
+items [
+apple
+banana
+cherry
+]
+
+description!4 ```markdown
+    # About this service
+    - Written by Robert
+    - Runs on Postgres
+    - Scales horizontally
+```
+
+config!4 ```json
+    {
+        "retries": 3,
+        "backoff": "5s"
+    }
+```
