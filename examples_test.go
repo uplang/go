@@ -8,7 +8,7 @@ import (
 )
 
 func TestParseExampleFiles(t *testing.T) {
-	examplesDir := "../spec/examples"
+	examplesDir := "examples/core"
 
 	// Test basic example files
 	examples := []string{
